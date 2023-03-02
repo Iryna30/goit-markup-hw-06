@@ -351,11 +351,17 @@ border-radius: 4px;
 }
 
 .form-policy {
+  display: flex;
+  /* align-items: center; */
   margin-bottom: 24px;
   color: #757575;
   font-size: 12px;
   line-height: 1.33;
   text-align: left;
+}
+
+.form-policy label{
+  margin-left: 8px;
 }
 .send-form {
   min-width: 169px;
